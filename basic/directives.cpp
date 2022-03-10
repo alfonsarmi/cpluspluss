@@ -3,7 +3,7 @@
 // macro with parameter 
 #define AREA(l) (l * l)
 
-#if defined dimen
+#ifdef dimen
     // This will be compiled
     // if 'dimen'  i s  defined
 #else
