@@ -1,5 +1,5 @@
 // multiple inheritance.cpp
-#include 
+#include <iostream>
 using namespace std;
 class A
 {
