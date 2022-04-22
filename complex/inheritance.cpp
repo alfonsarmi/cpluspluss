@@ -27,12 +27,39 @@ public:
         cout << "Sum = " << x + y;
     }
 };
+class D
+{
+public:
+    int l;
+    void getl()
+    {
+        cout << "enter value of l: "; cin >> l;
+    }
+};
+class E
+{
+public:
+    int m;
+    void getm()
+    {
+        cout << "enter value of m: "; cin >> m;
+    }
+};
+class F : public C, public D   //F is derived from class C (A+B) and class D
+{
+public:
+    void sum()
+    {
+        cout << "Sum = " << x + y + l;
+    }
+};
 
 int main()
 {
-    C obj1; //object of derived class C
+    F obj1; //object of derived class C
     obj1.getx();
     obj1.gety();
+    obj1.getl();
     obj1.sum();
     return 0;
 }   	//end of program
