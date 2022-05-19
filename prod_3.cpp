@@ -72,7 +72,6 @@ void main() {
   getch();
 }
 
-/*!
 void Power(float x, float y) {
   float p;
   p = pow(x, y);
@@ -114,4 +113,3 @@ void Baselog(float x) {
   bl = log10(x);
   cout << "LOG with Base 10: " << bl;
 }
-*/
