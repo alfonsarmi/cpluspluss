@@ -72,46 +72,44 @@ void main() {
   getch();
 }
 
-/*!
- *void Power(float x, float y) {
- *  float p;
- *  p = pow(x, y);
- *  cout << "Power: " << p;
- *}
- *
- *void Sine(float x) {
- *  float s;
- *  s = sin(x);
- *  cout << "Sin: " << s;
- *}
- *
- *void Square(float x) {
- *  float sq;
- *  sq = sqrt(x);
- *  cout << "Square of a Given Value is: " << sq;
- *}
- *
- *void Cos(float x) {
- *  float c;
- *  c = cos(x);
- *  cout << "COS: " << c;
- *}
- *
- *void Tan(float x) {
- *  float t;
- *  t = tan(x);
- *  cout << "TAN: " << t;
- *}
- *
- *void Log(float x) {
- *  float l;
- *  l = log(x);
- *  cout << "Natural Logarithm: " << l;
- *}
- *
- *void Baselog(float x) {
- *  float bl;
- *  bl = log10(x);
- *  cout << "LOG with Base 10: " << bl;
- *}
- */
+void Power(float x, float y) {
+  float p;
+  p = pow(x, y);
+  cout << "Power: " << p;
+}
+
+void Sine(float x) {
+  float s;
+  s = sin(x);
+  cout << "Sin: " << s;
+}
+
+void Square(float x) {
+  float sq;
+  sq = sqrt(x);
+  cout << "Square of a Given Value is: " << sq;
+}
+
+void Cos(float x) {
+  float c;
+  c = cos(x);
+  cout << "COS: " << c;
+}
+
+void Tan(float x) {
+  float t;
+  t = tan(x);
+  cout << "TAN: " << t;
+}
+
+void Log(float x) {
+  float l;
+  l = log(x);
+  cout << "Natural Logarithm: " << l;
+}
+
+void Baselog(float x) {
+  float bl;
+  bl = log10(x);
+  cout << "LOG with Base 10: " << bl;
+}
