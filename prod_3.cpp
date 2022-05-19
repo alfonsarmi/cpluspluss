@@ -113,3 +113,51 @@ void Baselog(float x) {
   bl = log10(x);
   cout << "LOG with Base 10: " << bl;
 }
+
+void AAA(float x) {
+  float c;
+  a = aaa(x);
+  cout << "AAA: " << c;
+}
+
+void BBB(float x) {
+  float t;
+  b = bbb(x);
+  cout << "BBB: " << t;
+}
+
+void CCC(float x) {
+  float l;
+  c = ccc(x);
+  cout << "CCC: " << l;
+}
+
+void DDD(float x) {
+  float bl;
+  d = ddd(x);
+  cout << "DDD: " << bl;
+}
+
+//void Cos(float x) {
+//  float c;
+//  c = cos(x);
+//  cout << "COS: " << c;
+//}
+//
+//void Tan(float x) {
+//  float t;
+//  t = tan(x);
+//  cout << "TAN: " << t;
+//}
+//
+//void Log(float x) {
+//  float l;
+//  l = log(x);
+//  cout << "Natural Logarithm: " << l;
+//}
+//
+//void Baselog(float x) {
+//  float bl;
+//  bl = log10(x);
+//  cout << "LOG with Base 10: " << bl;
+//}
