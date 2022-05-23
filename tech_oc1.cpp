@@ -43,27 +43,6 @@ int main() {
     case 5:
       cout << "May";
       break;
-    case 6:
-      cout << "June";
-      break;
-    case 7:
-      cout << "July";
-      break;
-    case 8:
-      cout << "August";
-      break;
-    case 9:
-      cout << "September";
-      break;
-    case 10:
-      cout << "October";
-      break;
-    case 11:
-      cout << "November";
-      break;
-    case 12:
-      cout << "December";
-      break;
   }    
   return 0;
 }
