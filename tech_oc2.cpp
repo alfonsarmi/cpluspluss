@@ -13,14 +13,6 @@ int main() {
     cout << "Good 4.";
   } else if (time < 5) {
     cout << "Good 5.";
-  } else if (time < 6) {
-    cout << "Good 6.";
-  } else if (time < 7) {
-    cout << "Good 7.";
-  } else if (time < 8) {
-    cout << "Good 8.";
-  } else if (time < 9) {
-    cout << "Good 9.";
   }
   return 0;
 }
