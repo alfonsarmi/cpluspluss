@@ -12,24 +12,4 @@ class Room {
     double breadth;
     double height;
 
-    double calculateArea() {
-        return length * breadth;
-    }
-
 };
-
-int main() {
-
-    // create object of Room class
-    Room room1;
-
-    // assign values to data members
-    room1.length = 42.5;
-    room1.breadth = 30.8;
-    room1.height = 19.2;
-
-    // calculate and display the area and volume of the room
-    cout << "Area of Room =  " << room1.calculateArea() << endl;
-
-    return 0;
-}
