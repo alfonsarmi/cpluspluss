@@ -1,4 +1,4 @@
-// Base class (parent)
+// Base class
 class MyClass {
   public:
     void myFunction() {
@@ -6,16 +6,21 @@ class MyClass {
     }
 };
 
-// Derived class
-class MyChild1: public MyClass {
+// Another base class
+class MyOtherClass {
+  public:
+    void myOtherFunction() {
+      cout << "Some content in another class." ;
+    }
 };
 
 // Derived class
-class MyChild2: public MyChild1 {
+class MyChildClass: public MyClass, public MyOtherClass {
 };
 
 int main() {
-  MyChild2 myObj;
+  MyChildClass myObj;
   myObj.myFunction();
+  myObj.myOtherFunction();
   return 0;
 }
