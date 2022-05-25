@@ -14,20 +14,8 @@ class MyChild1: public MyClass {
 class MyChild2: public MyChild1 {
 };
 
-// Derived class
-class MyChild3: public MyChild2 {
-};
-
-// Derived class
-class MyChild4: public MyChild3 {
-};
-
-// Derived class
-class MyChild5: public MyChild4 {
-};
-
 int main() {
-  MyChild5 myObj;
+  MyChild2 myObj;
   myObj.myFunction();
   return 0;
 }
